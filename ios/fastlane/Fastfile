@@ -35,15 +35,15 @@ platform :ios do
       clean: true,
       export_options: {
         output_directory: "./build/iOS/output",
-        installerSigningCertificate: ENV["sigh_com.korlab.smarteat_appstore_certificate-name"],
+        installerSigningCertificate: ENV["sigh_com.korlab.ai360_appstore_certificate-name"],
         provisioningProfiles: {
-          "com.korlab.smarteat": ENV["sigh_com.korlab.smarteat_appstore_profile-name"]
+          "com.korlab.ai360": ENV["sigh_com.korlab.ai360_appstore_profile-name"]
         },
         signingStyle: "manual",
-        teamId: ENV["sigh_com.korlab.smarteat_appstore_team-id"]
+        teamId: ENV["sigh_com.korlab.ai360_appstore_team-id"]
       },
-      workspace: "SmartEat.xcworkspace",
-      scheme: "SmartEat"
+      workspace: "AI360.xcworkspace",
+      scheme: "AI360"
     )
 
     # Upload to TestFlight
