@@ -1,0 +1,35 @@
+{
+    "env": {
+      "node": true,
+      "es2021": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "prettier",
+      "@react-native-community"
+    ],
+    "globals": {
+      "FormData": true
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 13,
+      "sourceType": "module"
+    },
+    "plugins": ["import", "react", "react-hooks", "jsx-a11y", "prettier", "react-native"],
+    "rules": {
+      "react/function-component-definition": "off",
+      "react-native/no-inline-styles": 2,
+      "prettier/prettier": "error",
+      "comma-dangle": "off",
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        }
+      ]
+    }
+  }
