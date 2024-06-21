@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Dopis-Bold.ttf",
+      "sha1": "2ceba242d85952cfcb91e2d2914c904e8efbfa16"
+    },
+    {
+      "path": "src/assets/fonts/Dopis-Light.ttf",
+      "sha1": "c5178c105269820d65905abb3ea0ce02a18dbfef"
+    },
+    {
+      "path": "src/assets/fonts/Dopis-Regular.ttf",
+      "sha1": "0b41dcee75a0d5f9b7b5fd7314d0c32291e15743"
+    }
+  ]
+}
